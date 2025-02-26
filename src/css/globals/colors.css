@@ -1,10 +1,17 @@
 root{
-    /* Background */
-    --clr-bg-main:hsl(0,0%,100%);
-    --clr-bg-play-outer:hsl(208.8,94.8%,55.5%);
+    /* BACKGROUND */
+  --clr-bg-main: hsla(0, 0%, 100%, 1);
+  --clr-bg-play-outer: hsla(208.8, 94.8%, 55.1%, 1);
+  --clr-bg-play: hsla(0, 0%, 100%, 1);
 
-    /* Text */
+  --clr-bg-link-hover: hsla(208.8, 94.8%, 55.1%, 1);
 
+  /* TEXT */
+  --clr-text-light: hsla(0, 0%, 100%, 1);
+  --clr-text-dark: hsla(227.6, 28.2%, 20.2%, 1);
+  --clr-text-grey: #374754;
 
-    /* Button */
+  /* BUTTON */
+  --clr-btn-bg-primary: hsla(208.8, 94.8%, 55.1%, 1);
+  --clr-bg-btn-hover: hsla(208.5, 58.2%, 34.7%, 1);
 }
