@@ -1,0 +1,20 @@
+.hero{
+    margin-block-start: 2rem;
+    text-align: center;
+}
+
+.hero__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__heading{
+    font: var(--fs-heading-xl);
+}
+
+.hero__copy{
+    font: var(--fs-headline-l);
+}
