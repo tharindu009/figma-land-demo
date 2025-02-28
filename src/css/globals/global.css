@@ -9,7 +9,7 @@ body{
     padding-block: 2.95rem;
 }
 
-.btn.primary{
+.btn-primary{
     background-color: var(--clr-btn-bg-primary);
     padding-inline: 3.75rem;
     padding-block: 1.25rem;

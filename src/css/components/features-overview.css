@@ -1,0 +1,31 @@
+
+.features-overview{
+
+}
+
+.features-overview__img{
+    position: relative;
+}
+
+.features-overview__img::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12%;
+    height: 22%;
+    background-color: var(--clr-bg-play-outer);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.features-overview__img::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 4.5%;
+    height: 8%;
+    background-color: var(--clr-bg-play);
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+}

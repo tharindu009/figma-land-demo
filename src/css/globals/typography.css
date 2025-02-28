@@ -1,4 +1,4 @@
-root{
+:root{
     --ff: "Open Sans",serif;
     --fw-black:880;
     --fw-bold:700;
@@ -12,7 +12,7 @@ root{
     --fs-650: 1.75rem;
     --fs-600: 1.25rem;
 
-    --fs-heading-xl: normal var(--fw-bold) var(--fs-800) / 1.29 var(--ff);
+  --fs-heading-xl: normal var(--fw-bold) var(--fs-800) / 1.29 var(--ff);
   --fs-heading-l: normal var(--fw-regular) var(--fs-760) / 1.15 var(--ff);
   --fs-headline-l: normal var(--fw-thin) var(--fs-700) / 1.43 var(--ff);
   --fs-subheading-l: normal var(--fw-light) var(--fs-650) / 1.43 var(--ff);
